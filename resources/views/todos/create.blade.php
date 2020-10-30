@@ -13,7 +13,6 @@
             @csrf
             <input type="text" name="title">
             <input type="submit" value="Create">
-            <input type="submit" value="Go">
         </form>
     </div>
 </body>
