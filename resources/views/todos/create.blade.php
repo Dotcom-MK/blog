@@ -9,7 +9,7 @@
 <body>
     <div>
         <h1>What next you need To-Do</h1>
-        <form​​ method="POST" action="/todo/create">
+        <form​​ method="POST" action="/todos/create">
             @csrf
             <input type="text" name="title">
             <input type="submit" value="Create">

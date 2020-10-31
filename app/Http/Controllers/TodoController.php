@@ -15,7 +15,7 @@ class TodoController extends Controller
     public function edit(){
         return view('todos.edit');
     }
-    public function store(){
-        
+    public function store(Request $request){
+        dd($request->all());
     }
 }
